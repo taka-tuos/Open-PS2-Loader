@@ -482,12 +482,12 @@ struct UIItem diaGSConfig[] = {
 
     {UI_LABEL, 0, 1, 1, -1, -40, 0, {.label = {NULL, _STR_XOFFSET}}},
     {UI_SPACER},
-    {UI_INT, GSMCFG_GSMXOFFSET, 1, 1, _STR_HINT_XOFFSET, -5, 0, {.intvalue = {0, 0, -100, 100}}},
+    {UI_INT, GSMCFG_GSMXOFFSET, 1, 1, _STR_HINT_XOFFSET, -5, 0, {.intvalue = {0, 0, -200, 200}}},
     {UI_BREAK},
 
     {UI_LABEL, 0, 1, 1, -1, -40, 0, {.label = {NULL, _STR_YOFFSET}}},
     {UI_SPACER},
-    {UI_INT, GSMCFG_GSMYOFFSET, 1, 1, _STR_HINT_YOFFSET, -5, 0, {.intvalue = {0, 0, -100, 100}}},
+    {UI_INT, GSMCFG_GSMYOFFSET, 1, 1, _STR_HINT_YOFFSET, -5, 0, {.intvalue = {0, 0, -200, 200}}},
     {UI_BREAK},
 
     {UI_LABEL, 0, 1, 1, -1, -40, 0, {.label = {NULL, _STR_GSM_FIELD_FIX}}},
